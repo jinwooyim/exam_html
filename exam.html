@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        #main{
+            caption-side: bottom;
+            border: 1px solid black;
+            border-bottom: 1.5px solid black;
+            border-right: 1.5px solid black;
+            width: auto;
+            height: auto;
+
+        }
+        caption{
+            margin: 10px;
+        }
+        td{
+            border: 1px solid black;
+            border-top: 1.5px solid black;
+            border-left: 1.5px solid black;
+        }
+        th{
+            border: 1px solid black;
+            border-top: 1.5px solid black;
+            border-left: 1.5px solid black;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <table id="main">
+        <tr>
+            <th colspan="5">IT 시간표</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>401호</th>
+            <th>402호</th>
+            <th>403호</th>
+            <th>404호</th>
+        </tr>
+        <tr>
+            <th>09:00-12:00</th>
+            <td rowspan="4" style="text-align: center; vertical-align: middle; font-weight: bolder;">
+                <p>공</p>
+                <p>사</p>
+                <p>중</p>
+            </td>
+            <td>PYTHON 기 초</td>
+            <td rowspan="2">네트워크보안<br> 실무자 양성</td>
+            <td>보충훈련 과정<br>(OS/네트워크)</td>
+        </tr>
+        <tr>
+            <th>12:30-15:30</th>
+            <td>JAVA</td>
+            <td>보충훈련 과정<br>(언어계열)</td>
+        </tr>
+        <tr>
+            <th>15:30-18:30</th>
+            <td>C언어</td>
+            <td rowspan="2">가상화 시스템<br>엔지니어 실무자 양성</td>
+            <td>리눅스</td>
+        </tr>
+        <tr>
+            <th>19:00-22:00</th>
+            <td>PYTHON_WEB</td>
+            <td>서버</td>
+        </tr>
+        <caption>위의 그림을 참고해서 HTML 을 사용하여 구현한다.</caption>
+    </table>
+    
+</body>
+</html>
